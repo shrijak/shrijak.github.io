@@ -102,6 +102,7 @@
     animation-name: fadeInLeft;
     animation-duration: 0.3s;
   }
+
   #projects_l:hover::after {
     border: 3px solid black;
     border-radius: 50px;
@@ -115,6 +116,7 @@
     animation-name: fadeInLeft;
     animation-duration: 0.3s;
   }
+
   #experience_l:hover::after {
     border: 3px solid black;
     border-radius: 50px;
@@ -150,6 +152,7 @@
     border: 3px solid black;
     border-radius: 50%;
   }
+
   #col1 {
     position: fixed;
     left: 0;
@@ -179,7 +182,7 @@ body {
   background-color: #39FF14;
 }
 
-.dark-mode-btn-white{
+.dark-mode-btn-white {
   background-color: white;
 }
 
@@ -187,8 +190,8 @@ body {
   background-color: white;
 }
 
-#dark_mode_btn{
+#dark_mode_btn {
   position: fixed;
-  right:2px;
+  right: 2px;
   bottom: 2px;
 }
