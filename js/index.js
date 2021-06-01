@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-  
+
   document.body.classList.toggle("dark-mode");
   for (let i = 1; i < document.getElementsByClassName("side_icon").length; i++) {
     document.getElementsByClassName("side_icon")[i].classList.toggle("dark-mode-icon");
@@ -35,7 +35,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  $("#col2").on('mousewheel DOMMouseScroll', function(e) {
+  $("#col2").on('mousewheel DOMMouseScroll touchmove', function(e) {
     var scrollTop = $(window).scrollTop();
     var midplace = $(window).innerHeight() / 2;
     $(".findByScroll").each(function(index){
