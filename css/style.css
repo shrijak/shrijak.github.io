@@ -28,26 +28,6 @@
   }
 }
 
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
 @media (min-width: 580px) {
   .side_icon {
     width: 40px;
@@ -79,19 +59,6 @@
     -webkit-animation-duration: 0.5s;
     animation-name: fadeInLeft;
     animation-duration: 0.5s;
-  }
-
-  #dark_mode_btn:hover::before {
-    border: 3px solid black;
-    border-radius: 50px;
-    background-color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    content: " DarkMode";
-    -webkit-animation-name: fadeIn;
-    -webkit-animation-duration: 0.3s;
-    animation-name: fadeIn;
-    animation-duration: 0.3s;
   }
 
   #home_l:hover::after {
