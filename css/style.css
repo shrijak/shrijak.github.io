@@ -54,6 +54,114 @@
     border: 3px solid black;
     border-radius: 50%;
   }
+  #profile_l:hover::after {
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    content: " About";
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fadeInLeft;
+    animation-duration: 0.5s;
+  }
+
+  #dark_mode_btn:hover::before {
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    content: " DarkMode";
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.3s;
+    animation-name: fadeIn;
+    animation-duration: 0.3s;
+  }
+
+  #home_l:hover::after {
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    content: " Home";
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fadeInLeft;
+    animation-duration: 0.5s;
+  }
+
+  #education_l:hover::after {
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    content: " Education";
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 0.3s;
+    animation-name: fadeInLeft;
+    animation-duration: 0.3s;
+  }
+
+  #skills_l:hover::after {
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    content: " Skills";
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 0.3s;
+    animation-name: fadeInLeft;
+    animation-duration: 0.3s;
+  }
+  #projects_l:hover::after {
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    content: " Projects";
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 0.3s;
+    animation-name: fadeInLeft;
+    animation-duration: 0.3s;
+  }
+  #experience_l:hover::after {
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    content: " Experience";
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 0.3s;
+    animation-name: fadeInLeft;
+    animation-duration: 0.3s;
+  }
+
+  #contact_l:hover::after {
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    content: " Contact";
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 0.3s;
+    animation-name: fadeInLeft;
+    animation-duration: 0.3s;
+  }
 }
 
 @media (max-width: 579px) {
@@ -84,119 +192,10 @@ body {
   background-color: white;
 }
 
-#profile_l:hover::after {
-  border: 3px solid black;
-  border-radius: 50px;
-  background-color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  position: absolute;
-  content: " About";
-  -webkit-animation-name: fadeInLeft;
-  -webkit-animation-duration: 0.5s;
-  animation-name: fadeInLeft;
-  animation-duration: 0.5s;
-}
-
 #dark_mode_btn{
   position: fixed;
   right:2px;
   bottom: 2px;
-}
-
-#dark_mode_btn:hover::before {
-  border: 3px solid black;
-  border-radius: 50px;
-  background-color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  content: " DarkMode";
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.3s;
-  animation-name: fadeIn;
-  animation-duration: 0.3s;
-}
-
-#home_l:hover::after {
-  border: 3px solid black;
-  border-radius: 50px;
-  background-color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  position: absolute;
-  content: " Home";
-  -webkit-animation-name: fadeInLeft;
-  -webkit-animation-duration: 0.5s;
-  animation-name: fadeInLeft;
-  animation-duration: 0.5s;
-}
-
-#education_l:hover::after {
-  border: 3px solid black;
-  border-radius: 50px;
-  background-color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  position: absolute;
-  content: " Education";
-  -webkit-animation-name: fadeInLeft;
-  -webkit-animation-duration: 0.3s;
-  animation-name: fadeInLeft;
-  animation-duration: 0.3s;
-}
-
-#skills_l:hover::after {
-  border: 3px solid black;
-  border-radius: 50px;
-  background-color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  position: absolute;
-  content: " Skills";
-  -webkit-animation-name: fadeInLeft;
-  -webkit-animation-duration: 0.3s;
-  animation-name: fadeInLeft;
-  animation-duration: 0.3s;
-}
-#projects_l:hover::after {
-  border: 3px solid black;
-  border-radius: 50px;
-  background-color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  position: absolute;
-  content: " Projects";
-  -webkit-animation-name: fadeInLeft;
-  -webkit-animation-duration: 0.3s;
-  animation-name: fadeInLeft;
-  animation-duration: 0.3s;
-}
-#experience_l:hover::after {
-  border: 3px solid black;
-  border-radius: 50px;
-  background-color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  position: absolute;
-  content: " Experience";
-  -webkit-animation-name: fadeInLeft;
-  -webkit-animation-duration: 0.3s;
-  animation-name: fadeInLeft;
-  animation-duration: 0.3s;
-}
-
-#contact_l:hover::after {
-  border: 3px solid black;
-  border-radius: 50px;
-  background-color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  position: absolute;
-  content: " Contact";
-  -webkit-animation-name: fadeInLeft;
-  -webkit-animation-duration: 0.3s;
-  animation-name: fadeInLeft;
-  animation-duration: 0.3s;
 }
 
 #col1 {

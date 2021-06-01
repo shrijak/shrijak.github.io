@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-
+  
   document.body.classList.toggle("dark-mode");
   for (let i = 1; i < document.getElementsByClassName("side_icon").length; i++) {
     document.getElementsByClassName("side_icon")[i].classList.toggle("dark-mode-icon");
