@@ -212,6 +212,10 @@ body {
   background-color: #39FF14;
 }
 
+.dark-mode-btn-white{
+  background-color: white;
+}
+
 .dark-mode-icon {
   background-color: white;
 }

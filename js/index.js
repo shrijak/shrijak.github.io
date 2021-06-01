@@ -12,6 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
       document.getElementsByClassName("side_icon")[i].classList.toggle("dark-mode-icon");
     }
     document.getElementById("dmb").classList.toggle("dark-mode-btn");
+    document.getElementById("dmb").classList.toggle("dark-mode-btn-white");
   });
 
   let current_id = undefined;
