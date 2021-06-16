@@ -28,7 +28,18 @@
   }
 }
 
+.findByScroll > h1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding: 2px;
+}
+
+.findByScroll {
+  font-family: 'Open Sans', sans-serif;
+}
+
 @media (min-width: 580px) {
+
   .side_icon {
     width: 40px;
     border: 3px solid black;
@@ -53,6 +64,7 @@
     background-color: white;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 18px;
     position: absolute;
     content: " About";
     -webkit-animation-name: fadeInLeft;
@@ -67,6 +79,7 @@
     background-color: white;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 18px;
     position: absolute;
     content: " Home";
     -webkit-animation-name: fadeInLeft;
@@ -81,6 +94,7 @@
     background-color: white;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 18px;
     position: absolute;
     content: " Education";
     -webkit-animation-name: fadeInLeft;
@@ -95,6 +109,7 @@
     background-color: white;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 18px;
     position: absolute;
     content: " Skills";
     -webkit-animation-name: fadeInLeft;
@@ -109,6 +124,7 @@
     background-color: white;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 18px;
     position: absolute;
     content: " Projects";
     -webkit-animation-name: fadeInLeft;
@@ -123,6 +139,7 @@
     background-color: white;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 18px;
     position: absolute;
     content: " Experience";
     -webkit-animation-name: fadeInLeft;
@@ -137,6 +154,7 @@
     background-color: white;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 18px;
     position: absolute;
     content: " Contact";
     -webkit-animation-name: fadeInLeft;
@@ -147,6 +165,10 @@
 }
 
 @media (max-width: 579px) {
+  .findByScroll {
+  font-size: 15px;
+  }
+
   .side_icon {
     width: 35px;
     border: 3px solid black;
@@ -179,7 +201,7 @@ body {
 }
 
 .dark-mode-btn {
-  background-color: #39FF14;
+  background-color: #15f4ee;
 }
 
 .dark-mode-btn-white {

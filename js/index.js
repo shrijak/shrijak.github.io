@@ -6,6 +6,8 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   document.getElementById("dmb").classList.toggle("dark-mode-btn");
 
+  //document.getElementById("dmb").classList.toggle("dark-mode-btn-white");
+
   $('#dark_mode_btn').on("click", function() {
     document.body.classList.toggle("dark-mode");
     for (let i = 1; i < document.getElementsByClassName("side_icon").length; i++) {
@@ -24,7 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
         $(`#${current_id}`).css("background-color", "white");
       }
       current_id = $(this).children().attr("id");
-      $(`#${current_id}`).css("background-color", "#39FF14");
+      $(`#${current_id}`).css("background-color", "#15f4ee");
     }
 
     e.preventDefault();
@@ -48,7 +50,7 @@ window.addEventListener('DOMContentLoaded', () => {
             $(`#${current_id}`).css("background-color", "white");
           }
           current_id = $(this).attr("id").toLowerCase();
-          $(`#${current_id}`).css("background-color", "#39FF14");
+          $(`#${current_id}`).css("background-color", "#15f4ee");
         }
       }
     });
