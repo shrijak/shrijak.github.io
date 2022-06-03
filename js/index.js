@@ -20,7 +20,6 @@ window.addEventListener('DOMContentLoaded', () => {
   let current_id = undefined;
 
   $("a[href^='#']").click(function(e) {
-    console.log();
     if (current_id !== $(this).children().attr("id")) {
       if (current_id !== undefined) {
         $(`#${current_id}`).css("background-color", "white");

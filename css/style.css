@@ -38,7 +38,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-@media (min-width: 580px) {
+@media only screen and (min-width: 580px) {
 
   .side_icon {
     width: 40px;
@@ -58,6 +58,7 @@
     overflow: auto;
   }
 
+@media (hover:hover) and (pointer:fine){
   #profile_l:hover::after {
     border: 3px solid black;
     border-radius: 50px;
@@ -162,9 +163,10 @@
     animation-name: fadeInLeft;
     animation-duration: 0.3s;
   }
+    }
 }
 
-@media (max-width: 579px) {
+@media only screen and (max-width: 579px) {
   .findByScroll {
   font-size: 15px;
   }
